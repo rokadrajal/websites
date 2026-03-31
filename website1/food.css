@@ -1,0 +1,1457 @@
+nav{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+nav .one img{
+    width: 50%;
+    height: 100px;
+    margin-left: 500px;
+    margin-top: 50px;
+
+}
+.two{
+    display: flex;
+    margin-top: -20px;
+}
+.two img{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.two .two2 ul{
+    list-style: none;
+    display: flex;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-left: -50px;
+    margin-top: 110px;
+}
+.two .two2 li{
+    margin-left: 50px;
+}
+.two .two3{
+    font-size: 25px;
+    margin-top: 110px;
+    margin-left: 90px;
+}
+.main1{
+    background-image: url(https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_1280,ar_16:9/v1/img/recipes/11/77/76/nMyPCs6fQTKKu71lvP7y_0S9A6071.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 90vh;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.main-1{
+    width: 800px;
+    height: 90vh;
+    background: linear-gradient(to right, #000, #0000);
+
+}
+.main1 h1{ 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    padding-left: 100px;
+    padding-top: 250px;
+
+}
+.main1 .btn1{
+    width: 200px;
+    height: 60px;
+    border: none;
+    background-color: #f5ce35;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: -20px;
+    
+}
+.main1 .btn1:hover{
+    background-color: #e5bb13;
+}
+.main2{
+    width: 80%;
+    height: 180px;
+    margin-left: 200px;
+    margin-top: 50px;
+    background-color: rgb(247, 247, 247);
+}
+.main2 img{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.main2 h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    color: gray;
+    margin-left: 720px;
+    margin-top: 0px;
+}
+.main3 .all{
+    display: flex;
+}
+.main3 .all h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.main3 .all h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    color: #1769c2;
+    margin-left: 840px;
+    margin-top: 50px;
+}
+.main-3{
+    display: flex;
+}
+.main-3 .box1{
+    width: 450px;
+    height: 550px;
+    border: 1px solid gainsboro;
+    margin-left: 200px;
+    border-radius: 5px;
+}
+.box1 .img{
+    display: flex;
+}
+.box1 .img img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.box1 .img h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.box1 .img h4 span{
+    color:#1769c2;
+}
+.box1 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.box1 .last h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    color: gray;
+    margin-top: 300px;
+    margin-left: 20px;
+}
+.box1 .last h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    color: rgb(55, 55, 55);
+    margin-left: 350px;
+    margin-top: -45px;
+
+}
+
+
+
+.main-3 .box2{
+    width: 450px;
+    height: 550px;
+    border: 1px solid gainsboro;
+    margin-left: 72px;
+    border-radius: 5px;
+}
+.box2 .img{
+    display: flex;
+}
+.box2 .img img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.box2 .img h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.box2 .img h4 span{
+    color:#1769c2;
+}
+.box2 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.box2 .last h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    color: gray;
+    margin-top: 240px;
+    margin-left: 20px;
+}
+.box2 .last h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    color: rgb(55, 55, 55);
+    margin-left: 350px;
+    margin-top: -45px;
+
+}
+
+
+.main-3 .box3{
+    width: 450px;
+    height: 550px;
+    border: 1px solid gainsboro;
+    margin-left: 72px;
+    border-radius: 5px;
+}
+.box3 .img{
+    display: flex;
+}
+.box3 .img img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.box3 .img h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.box3 .img h4 span{
+    color:#1769c2;
+}
+.box3 .food{
+    margin-left: 25px;
+    border-radius: 5px;
+}
+.box3 .last h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    color: gray;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+.box3 .last h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    color: rgb(55, 55, 55);
+    margin-left: 350px;
+    margin-top: -45px;
+
+}
+
+.main4  h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.main-4{
+    display: flex;
+}
+.main-4 .box4{
+    width: 450px;
+    height: 500px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 200px;
+
+}
+.box4{
+    background-image: url(https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_750,ar_1:1/v1/img/recipes/48/15/8/Nq17gZodSnahb7SPQNZo_0S9A5497.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box4 .liner1{
+    width: 450px;
+    height: 200px;
+    background: linear-gradient(to top, #000, #0000);
+    margin-top: 300px;
+    
+}
+.main-4 .box4 .liner1 h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    padding-top: 60px;
+    padding-left: 20px;
+   
+}
+.main-4 .box4 .liner1 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+
+.main-4 .box5{
+    width: 450px;
+    height: 500px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 72px;
+
+}
+.box5{
+    background-image: url(https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_750,ar_1:1/v1/img/recipes/38/66/9/aCbM54xnRz6KoqNT29MA_untitled-5026.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box5 .liner2{
+    width: 450px;
+    height: 200px;
+    background: linear-gradient(to top, #000, #0000);
+    margin-top: 300px;
+    
+}
+.main-4 .box5 .liner2 h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    padding-top: 60px;
+    padding-left: 20px;
+   
+}
+.main-4 .box5 .liner2 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+
+.main-4 .box6{
+    width: 450px;
+    height: 500px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 72px;
+
+}
+.box6{
+    background-image: url(https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_750,ar_1:1/v1/img/recipes/86/24/8/LaOg4pNNS2CEZQ12pbiW_Food-com-2017-06-197543.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box6 .liner3{
+    width: 450px;
+    height: 200px;
+    background: linear-gradient(to top, #000, #0000);
+    margin-top: 300px;
+    
+}
+.main-4 .box6 .liner3 h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    padding-top: 60px;
+    padding-left: 20px;
+   
+}
+.main-4 .box6 .liner3 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.main5  h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.main-5{
+    display: flex;
+}
+.circle1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin-left: 220px;
+}
+.circle1 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.circle2 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin-left: 50px;
+}
+.circle2 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.circle3 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin-left: 50px;
+}
+.circle3 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.circle4 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin-left: 50px;
+}
+.circle4 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.circle5 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin-left: 50px;
+}
+.circle5 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.circle6 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin-left: 80px;
+}
+.circle6 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.main6{
+    width: 80%;
+    height: 180px;
+    margin-left: 200px;
+    margin-top: 50px;
+    background-color: rgb(247, 247, 247);
+}
+.main6 img{
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.main6 h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    color: gray;
+    margin-left: 720px;
+    margin-top: 0px;
+}
+
+.main7 .all2{
+    display: flex;
+}
+.main7 .all2 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.main7 .all2 h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    color: #1769c2;
+    margin-left: 1100px;
+    margin-top: 50px;
+}
+.main-7{
+    display: flex;
+}
+.main-7 .box7{
+    width: 350px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 200px;
+}
+.main-7 .box7 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.box7 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+}
+.main-7 .box8{
+    width: 350px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.main-7 .box8 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.box8 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+}
+.main-7 .box9{
+    width: 350px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.main-7 .box9 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.box9 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 20px;
+}
+.main-7 .box10{
+    width: 350px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.main-7 .box10 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.box10 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align:left;
+    margin-left: 20px;
+}
+
+
+
+
+.main8  h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.main-8{
+    display: flex;
+}
+.main-8 .box11{
+    width: 450px;
+    height: 500px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 200px;
+
+}
+.box11{
+    background-image: url(https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_750,ar_1:1/v1/img/recipes/17/82/49/C0UjeSAKQi69gCwS0DBQ_0S9A2819.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box11 .liner4{
+    width: 450px;
+    height: 200px;
+    background: linear-gradient(to top, #000, #0000);
+    margin-top: 300px;
+    
+}
+.main-8 .box11 .liner4 h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    padding-top: 60px;
+    padding-left: 20px;
+   
+}
+.main-8 .box11 .liner4 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+
+.main-8 .box12{
+    width: 450px;
+    height: 500px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 72px;
+
+}
+.box12{
+    background-image: url(https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_750,ar_1:1/v1/img/recipes/29/66/52/EkOcxngGTbqHZQ2OyY89_0S9A2524.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box12 .liner5{
+    width: 450px;
+    height: 200px;
+    background: linear-gradient(to top, #000, #0000);
+    margin-top: 300px;
+    
+}
+.main-8 .box12 .liner5 h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    padding-top: 60px;
+    padding-left: 20px;
+   
+}
+.main-8 .box12 .liner5 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+
+.main-8 .box13{
+    width: 450px;
+    height: 500px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 72px;
+
+}
+.box13{
+    background-image: url(https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_750,ar_1:1/v1/img/recipes/30/92/31/arM2OvNhQ5aKWEBOgAex_easy-bolognese-recipe-6693.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box13 .liner6{
+    width: 450px;
+    height: 200px;
+    background: linear-gradient(to top, #000, #0000);
+    margin-top: 300px;
+    
+}
+.main-8 .box13 .liner6 h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    padding-top: 60px;
+    padding-left: 20px;
+   
+}
+.main-8 .box13 .liner6 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+
+
+.main9 .all3{
+    display: flex;
+}
+.main9 .all3 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.main9 .all3 h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    color: #1769c2;
+    margin-left: 1190px;
+    margin-top: 50px;
+}
+.main-9{
+    display: flex;
+}
+.main-9 .box14{
+    width: 350px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 200px;
+}
+.main-9 .box14 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.box14 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 20px;
+}
+.main-9 .box15{
+    width: 350px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 32px;
+}
+.main-9 .box15 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.box15 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+}
+.main-9 .box16{
+    width: 350px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 32px;
+}
+.main-9 .box16 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.box16 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 20px;
+}
+.main-9 .box17{
+    width: 350px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 32px;
+}
+.main-9 .box17 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.box17 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align:left;
+    margin-left: 20px;
+}
+
+
+.main10{
+    width: 80%;
+    height: 180px;
+    margin-left: 200px;
+    margin-top: 50px;
+    background-color: rgb(247, 247, 247);
+}
+.main10 img{
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.main10 h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    color: gray;
+    margin-left: 720px;
+    margin-top: 0px;
+}
+.main11{
+    display: flex;
+    width: 80%;
+    height: 600px;
+    border: 1px solid rgb(228, 227, 227);
+    margin-left: 200px;
+    margin-top: 50px;
+    color:  #2f2f2f;
+    border-radius: 5px;
+}
+.main11 .img-2 h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+.main11 .img-2 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 70px;
+}
+.main11 .img-2 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 70px;
+}
+
+.main12 .all4{
+    display: flex;
+}
+.main12 .all4 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.main12 .all4 h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    color: #1769c2;
+    margin-left: 1150px;
+    margin-top: 50px;
+}
+.main-12{
+    display: flex;
+}
+.main-12 .box18{
+    width: 350px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 200px;
+}
+.main-12 .box18 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.box18 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 20px;
+}
+.main-12 .box19{
+    width: 350px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 32px;
+}
+.main-12 .box19 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.box19 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 32px;
+}
+.main-12 .box20{
+    width: 350px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.main-12 .box20 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.box20 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 20px;
+}
+.main-12 .box21{
+    width: 350px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 32px;
+}
+.main-12 .box21 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.box21 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align:left;
+    margin-left: 20px;
+}
+
+
+
+.main-13{
+    display: flex;
+    margin-top: 32px;
+}
+.main-13 .box22{
+    width: 350px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 200px;
+}
+.main-13 .box22 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.box22 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 20px;
+}
+.main-13 .box23{
+    width: 350px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.main-13 .box23 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.box23 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 30px;
+}
+.main-13 .box24{
+    width: 350px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.main-13 .box24 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.box24 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 20px;
+}
+.main-13 .box25{
+    width: 350px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.main-13 .box25 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.box25 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align:left;
+    margin-left: 20px;
+}
+
+
+
+
+.main-14{
+    display: flex;
+    margin-top: 32px;
+}
+.main-14 .box26{
+    width: 350px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 200px;
+}
+.main-14 .box26 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.box26 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 20px;
+}
+.main-14 .box27{
+    width: 350px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.main-14 .box27 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.box27 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 30px;
+}
+.main-14 .box28{
+    width: 350px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.main-14 .box28 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.box28 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 20px;
+}
+.main-14 .box29{
+    width: 350px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.main-14 .box29 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.box29 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align:left;
+    margin-left: 20px;
+}
+
+
+
+.main-15{
+    display: flex;
+    margin-top: 32px;
+}
+.main-15 .box30{
+    width: 350px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 200px;
+}
+.main-15 .box30 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.box30 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 20px;
+}
+.main-15 .box31{
+    width: 350px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.main-15 .box31 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.box31 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 30px;
+}
+.main-15 .box32{
+    width: 350px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.main-15 .box32 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.box32 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 20px;
+}
+.main-15 .box33{
+    width: 350px;
+    height: 400px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.main-15 .box33 img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+.box33 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align:left;
+    margin-left: 20px;
+}
+
+
+.main13{
+    width: 100%;
+    height: 300px;
+    background-color: #f2f2f2;
+    margin-top: 50px;
+}
+.main13 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    padding-top: 40px;
+    text-align: center;
+}
+.main-16{
+    width: 800px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius: 30px;
+    background-color: white;
+    margin-left: 550px;
+}
+.main13 input{
+    width: 500px;
+    height: 30px;
+    border: none;
+    margin-left: 30px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.main13 .btn2{
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color: #f5ce35;
+    font-size: 20px;
+    margin-left: 800px;
+    margin-top: 40px;
+}
+.main13 .btn2:hover{
+    background-color:#e5bb13;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+.main-17{
+    display: flex;
+}
+.main-17 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left:10px;
+   padding-top: 15px;
+}
+.main-17 i{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.main-17 i:first-child{
+    margin-left: 40px;
+}
+.main-17 .icone{
+    margin-left: 30px;
+}
+.main-18{
+    display: flex;
+    padding-left: 20px;
+}
+.main-18 h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 30px;
+}
+.main15 h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: end;
+    padding-top: 20px;
+}
+.main15 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: gray;
+    margin-left: 750px;
+    margin-top: -15px;
+}
+.main-19{
+    display: flex;
+    gap: 30px;
+   
+}
+.main-19 h4:first-child{
+    margin-left: 820px;
+}
+.main-20{
+    display: flex;
+    gap: 30px;
+}
+.main-20 h4{
+    margin-top: -80px;
+}
+.main-20 h4:first-child{
+    margin-left: 760px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

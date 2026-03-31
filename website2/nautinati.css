@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+marquee{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(147 76 147);
+    color: white;
+    position: fixed;
+
+}
+marquee h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    padding-top: 10px;
+}
+nav{
+    width: 100%;
+    height: 130px;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    position: fixed;
+    background-color: white;
+    margin-top: 50px;
+}
+.one{
+    display: flex;
+}
+.one img{
+    margin-left: 70px;
+    margin-top: -10px;
+}
+.one h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    padding-left: 25px;
+    padding-top: 50px;
+}
+.two{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+.two-2{
+    display: flex;
+     width:300px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    background-color: rgb(244, 244, 244);
+
+}
+.two-2 input{
+    height: 40px;
+    border: none;
+    background-color:rgb(244, 244, 244) ;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left: 5px;
+
+}
+.two-2 i{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.two img{
+    margin-left: 20px;
+   margin-top: -15px;
+}
+.two-3 i{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.main1{
+    display: flex;
+}
+.main1 img{
+    border-radius: 30px;
+    margin-top: 200px;
+}
+.main1 .i-1{
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+    background-color: rgb(252, 252, 252);
+    border-radius: 5px;
+    padding-top: 20px;
+    margin-top: 500px;
+    margin-left: 60px;
+}
+.main1 .i-2{
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+    background-color: rgb(252, 252, 252);
+    border-radius: 5px;
+    padding-top: 20px;
+    margin-top: 500px;   
+}
+.main2{
+    width: 100%;
+    height: 200vh;
+}
+.main2 h1{
+    font-family:cursive;
+    font-weight: bold;
+    color: #8457e3;
+    text-align: center;
+    margin-top: 100px;
+}
+.main-1{
+    display: flex;
+    
+}
+.one1 img{
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 20px; 
+    
+}
+.one1 h2{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(247, 246, 246);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-left: 600px;
+    margin-top: -30px;
+     position: absolute;
+    box-shadow: 0px 2px 2px 0px #FFF inset, 0px -2px 2px 0px rgba(0, 0, 0, 0.05) inset;
+
+}
+.one1 h2:hover{
+    background-color: #934c93;
+}
+.two2 img{
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+    
+}
+.two2 h2{
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(247, 246, 246);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+    padding-left: 23px;
+    margin-left: 300px;
+    margin-top: -30px;
+    position: absolute;
+   
+    box-shadow: 0px 2px 2px 0px #FFF inset, 0px -2px 2px 0px rgba(0, 0, 0, 0.05) inset;
+
+}
+.two2 h2:hover{
+    background-color: #934c93;
+}
+
+
+.main-2{
+    display: flex;
+}
+.three3 img{
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+    z-index: 1;
+}
+.three3 h2{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(247, 246, 246);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+    padding-left: 25px;
+    margin-left: 300px;
+    margin-top: -30px;
+    position: absolute;
+   
+    box-shadow: 0px 2px 2px 0px #FFF inset, 0px -2px 2px 0px rgba(0, 0, 0, 0.05) inset;
+
+}
+.three3 h2:hover{
+    background-color: #934c93;
+}
+
+.four4 img{
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+    z-index: 1;
+}
+.four4 h2{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(247, 246, 246);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+    padding-left: 25px;
+    margin-left: 600px;
+    margin-top: -30px;
+    position: absolute;
+  
+    box-shadow: 0px 2px 2px 0px #FFF inset, 0px -2px 2px 0px rgba(0, 0, 0, 0.05) inset;
+
+}
+.four4 h2:hover{
+    background-color: #934c93;
+}
+
+
+.main3{
+    width: 100%;
+    height: 200vh;
+}
+.main3 h1{
+    font-family:cursive;
+    font-weight: bold;
+    color: #8457e3;
+    text-align: center;
+    margin-top: -550px;
+}
+.main-3{
+    display: flex;
+    
+}
+.five5 img{
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 20px; 
+    
+}
+.five5 h2{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(247, 246, 246);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-left: 400px;
+    margin-top: -30px;
+     position: absolute;
+    box-shadow: 0px 2px 2px 0px #FFF inset, 0px -2px 2px 0px rgba(0, 0, 0, 0.05) inset;
+
+}
+.five5 h2:hover{
+    background-color: #934c93;
+}
+.six6 img{
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+    
+}
+.six6 h2{
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(247, 246, 246);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+    padding-left: 23px;
+    margin-left: 400px;
+    margin-top: -30px;
+    position: absolute;
+    box-shadow: 0px 2px 2px 0px #FFF inset, 0px -2px 2px 0px rgba(0, 0, 0, 0.05) inset;
+
+}
+.six6 h2:hover{
+    background-color: #934c93;
+}
+
+.main4{
+    background-image: url(//nautinati.com/cdn/shop/files/INSTAGRAM_BACKGROUND_1.svg?v=1712120276);
+    background-repeat: no-repeat;
+    background-size:1800px 1000px ;
+    margin-left: 60px;
+    margin-top: -1100px;
+    
+   
+}
+.main4{
+    width: 100%;
+    height: 200vh;
+}
+.main4 h1{
+    font-family:cursive;
+    font-weight: bold;
+    color: #8457e3;
+    text-align: center;
+    padding-top: 50px;
+}
+.main-4{
+    display: flex;
+}
+.img1 img{ 
+    border: 3px solid white;
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-top: 50px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, .6) .04%, rgba(0, 0, 0, 0) 17%);
+}
+
+.img1 h1{
+    width: 350px;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    box-shadow: 0px 8px 16px 0px #FFFFFF29, 0px -2px 2px 0px #0000001F inset, 0px 2px 2px 0px #FFFFFF inset;
+    margin-top: -80px;
+    margin-left: 95px;
+    padding-top: 20px;
+    text-align: center;
+    position: absolute;   
+}
+.img1 i{
+    margin-left: 19px;
+}
+
+.img2 img{ 
+    border: 3px solid white;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, .6) .04%, rgba(0, 0, 0, 0) 17%);
+}
+
+.img2 h1{
+    width: 350px;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    box-shadow: 0px 8px 16px 0px #FFFFFF29, 0px -2px 2px 0px #0000001F inset, 0px 2px 2px 0px #FFFFFF inset;
+    margin-top: -80px;
+    margin-left: 45px;
+    padding-top: 20px;
+    text-align: center;
+    position: absolute;   
+}
+.img2 i{
+    margin-left: 19px;
+}
+
+.img3 img{ 
+    border: 3px solid white;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, .6) .04%, rgba(0, 0, 0, 0) 17%);
+}
+
+.img3 h1{
+    width: 350px;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    box-shadow: 0px 8px 16px 0px #FFFFFF29, 0px -2px 2px 0px #0000001F inset, 0px 2px 2px 0px #FFFFFF inset;
+    margin-top: -80px;
+    margin-left: 45px;
+    padding-top: 20px;
+    text-align: center;
+    position: absolute;   
+}
+.img3 i{
+    margin-left: 19px;
+}
+
+.img4 img{ 
+    border: 3px solid white;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, .6) .04%, rgba(0, 0, 0, 0) 17%);
+}
+
+.img4 h1{
+    width: 350px;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    box-shadow: 0px 8px 16px 0px #FFFFFF29, 0px -2px 2px 0px #0000001F inset, 0px 2px 2px 0px #FFFFFF inset;
+    margin-top: -80px;
+    margin-left: 45px;
+    padding-top: 20px;
+    text-align: center;
+    position: absolute;   
+}
+.img4 i{
+    margin-left: 19px;
+}
+.main5{
+    background-image: url(//nautinati.com/cdn/shop/files/M-NEW_ARRIVALS.svg?v=171211956);
+    background-repeat: no-repeat;
+    background-size:1800px 1000px ;
+    margin-left: 60px;
+    margin-top: 900px;
+}
+.main5 iframe{
+    margin-top: 900px;
+    
+
+}
+
