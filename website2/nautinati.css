@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -426,3 +426,270 @@ nav{
 
 }
 
+
+
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+    html {
+        zoom: 75%;
+    }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1600px) {
+    html {
+        zoom: 85%;
+    }
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* 1. TOP MARQUEE BAR */
+marquee {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(147, 76, 147);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+marquee h2 {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 40px;
+}
+
+/* 2. NAVBAR */
+nav {
+    width: 100%;
+    min-height: 90px;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    background-color: white;
+    padding: 10px 40px;
+    z-index: 999;
+}
+
+.one {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.one img {
+    margin: 0;
+}
+
+.one h4 {
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.two {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.two-2 {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 42px;
+    border-radius: 8px;
+    border: 1px solid gainsboro;
+    background-color: rgb(244, 244, 244);
+    padding: 0 12px;
+}
+
+.two-2 input {
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 15px;
+}
+
+.two-3 {
+    display: flex;
+    gap: 15px;
+}
+
+.two-3 i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* 3. HERO SLIDER BANNER */
+.main1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    padding: 20px 40px;
+    gap: 15px;
+}
+
+.main1 img {
+    border-radius: 20px;
+    width: 90%;
+    max-width: 1300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.main1 .i-1,
+.main1 .i-2 {
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+    background-color: rgb(252, 252, 252);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* 4. MAIN COMMON STYLES FOR SECTIONS */
+.main2, .main3, .main4 {
+    width: 100%;
+    padding: 60px 40px;
+}
+
+.main2 h1, .main3 h1, .main4 h1 {
+    font-family: cursive;
+    font-weight: bold;
+    color: #8457e3;
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 28px;
+}
+
+/* Rows using Flex */
+.main-1, .main-2, .main-3, .main-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto 30px auto;
+}
+
+/* Card wrappers relative position જેથી બટન અંદર જ રહે */
+.one1, .two2, .three3, .four4, .five5, .six6 {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 420px;
+}
+
+/* HTML ના વિડ્થ એટ્રિબ્યુટ્સને CSS માં પ્રોપર્શનેટ ટકાવારી આપવી */
+.one1, .four4 {
+    flex: 2; /* મોટી ઈમેજ માટે */
+}
+
+.two2, .three3 {
+    flex: 1; /* નાની ઈમેજ માટે */
+}
+
+.five5, .six6 {
+    flex: 1; /* બોયઝ કેટેગરીમાં સરખી 50-50% વિડ્થ માટે */
+}
+
+/* ઈમેજીસ સ્ક્રીન પ્રમાણે ઓટો-એડજસ્ટ થાય તે માટે */
+.one1 img, .two2 img, .three3 img, .four4 img, .five5 img, .six6 img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    display: block;
+    border-radius: 20px;
+}
+
+/* Categories Pill Buttons */
+.one1 h2, .two2 h2, .three3 h2, .four4 h2, .five5 h2, .six6 h2 {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(247, 246, 246);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 24px;
+    border-radius: 30px;
+    white-space: nowrap;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.one1 h2:hover, .two2 h2:hover, .three3 h2:hover,
+.four4 h2:hover, .five5 h2:hover, .six6 h2:hover {
+    background-color: #934c93;
+    color: white;
+}
+
+/* 5. FEATURED COLLECTION SECTION */
+.main4 {
+    background-image: url('https://nautinati.com/cdn/shop/files/INSTAGRAM_BACKGROUND_1.svg?v=1712120276');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-4 {
+    flex-wrap: wrap;
+}
+
+.img1, .img2, .img3, .img4 {
+    position: relative;
+    flex: 1;
+    min-width: 250px;
+    max-width: 320px;
+    display: flex;
+    justify-content: center;
+}
+
+.img1 img, .img2 img, .img3 img, .img4 img {
+    width: 100% !important;
+    height: auto !important;
+    max-height: 520px;
+    object-fit: cover;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+.img1 h1, .img2 h1, .img3 h1, .img4 h1 {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+    font-size: 15px;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    margin: 0;
+}

@@ -1521,7 +1521,23 @@ footer{
 
 
 
+@media (min-width: 1000px) and (max-width: 1400px) {
+    body {
+        zoom: 75%;
+    }
+}
 
+@media (min-width: 1401px) and (max-width: 1600px) {
+    body {
+        zoom: 85%;
+    }
+}
+
+@media (min-width: 1601px) and (max-width: 1800px) {
+    body {
+        zoom: 95%;
+    }
+}
 
 
 

@@ -1,12 +1,16 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 .one{
     display: flex;
-    margin-left: 250px;
+    justify-content: space-evenly;
     margin-top: 30px;
+    gap: 20px;
+}
+.one .login{
+    display: flex;
 }
 .one img{
     margin-top: 10px;
@@ -33,7 +37,7 @@ input{
     border: 1px solid gainsboro;
     display: flex;
     border-radius: 10px;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 .one h3{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -52,7 +56,7 @@ input{
    gap: 5px;
 }
 .two .h1{
-    margin-left: 250px; 
+    margin-left: 145px; 
 }
 .two .h1:hover{
     color: red;
@@ -80,6 +84,9 @@ input{
 .img1 img{
     margin-left: 15px;
     margin-top: 15px;
+}
+.three3{
+    margin-left: -160px;
 }
 .three3 h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -112,11 +119,11 @@ input{
     font-size: 20px;
 }
 .four{
-    width:100%;
+    width:auto;
     height: 1px;
     color: rgb(199, 64, 64);
     margin-top: 50px; 
-    margin-left: 250px; 
+    margin-left: 130px; 
   
 }
 .four .btn1,.btn2,.btn3{
@@ -147,11 +154,12 @@ input{
 .main1 h1{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 100;
-    margin-left: 200px;
+    margin-left: 140px;
     padding-top: 30px;
 }
 .main-1{
     display: flex;
+    gap: 33px;
 }
 .main-1 .i1{
     width: 40px;
@@ -159,7 +167,7 @@ input{
     border-radius: 40px;
     background-color: white;
     margin-top: 100px;
-    margin-left: 180px;
+    margin-left: 140px;
     border: 1px solid gainsboro;
     position: absolute;
     z-index: 2;
@@ -172,7 +180,7 @@ input{
     width: 150px;
     height: 150px;
     border-radius: 150px;
-    margin-left: 200px;
+    margin-left: 160px;
     margin-top: 50px;
     position: absolute;
     z-index: 1;
@@ -246,7 +254,7 @@ input{
     border-radius: 40px;
     background-color: white;
     margin-top: 100px;
-    margin-left: 1180px;
+    margin-left: 1350px;
     border: 1px solid gainsboro;
     position: absolute;
     z-index: 2;
@@ -265,11 +273,12 @@ input{
 .main2 h1{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 100;
-    margin-left: 200px;
+    margin-left: 140px;
     margin-top: 20px;
 }
 .main-2{
     display: flex;
+    gap: 33px;
 }
 .main-2 .i3{
     width: 40px;
@@ -277,7 +286,7 @@ input{
     border-radius: 40px;
     background-color: white;
     margin-top: 100px;
-    margin-left: 180px;
+    margin-left: 140px;
     border: 1px solid gainsboro;
     position: absolute;
     z-index: 2;
@@ -290,7 +299,7 @@ input{
     width: 150px;
     height: 150px;
     border-radius: 150px;
-    margin-left: 200px;
+    margin-left: 160px;
     margin-top: 50px;
     position: absolute;
     z-index: 1;
@@ -449,7 +458,7 @@ input{
     border-radius: 40px;
     background-color: white;
     margin-top: 100px;
-    margin-left: 1180px;
+    margin-left: 1350px;
     border: 1px solid gainsboro;
     position: absolute;
     z-index: 2;
@@ -1581,7 +1590,7 @@ input{
 
 
 
-.main-7{
+/* .main-7{
     display: flex;
 }
 .seventeen{
@@ -3768,11 +3777,11 @@ input{
     border: 1px solid gainsboro;
 }
 
+ */
 
 
 
-
-.main-17{
+/* .main-17{
     display: flex;
 }
 .twenty-47{
@@ -9232,19 +9241,646 @@ input{
     border: 1px solid gainsboro;
 }
 
+ */
 
 
 
 
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    max-width: 1200px;
+    margin: 30px auto 0 auto;
+}
+.one .login {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.one img {
+    margin-top: 0;
+}
+input {
+    width: 200px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+.line {
+    padding-top: 13px;
+}
+.one1 i {
+    margin-top: 17px;
+    margin-left: 10px;
+}
+.one1 .aerrow {
+    margin-top: 10px;
+}
+.one1 {
+    width: 600px;
+    height: 50px;
+    border: 1px solid gainsboro;
+    display: flex;
+    border-radius: 10px;
+}
+.one h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    color: gray;
+    margin: 0;
+    cursor: pointer;
+}
+
+.two {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+    color: gray;
+    font-size: 13px;
+    gap: 5px;
+    width: 85%;
+    max-width: 1200px;
+    margin: 20px auto 0 auto;
+}
+.two .h1 {
+    margin-left: 0;
+}
+.two .h1:hover {
+    color: red;
+    cursor: pointer;
+}
+.two .h2:hover {
+    color: red;
+    cursor: pointer;
+}
+.two .h3 {
+    color: rgb(202, 202, 202);
+}
+
+.three {
+    display: flex;
+    gap: 30px;
+    width: 85%;
+    max-width: 1200px;
+    margin: 20px auto 0 auto;
+}
+.three3 {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+}
+.img1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: rgb(241, 241, 241);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1 img {
+    margin: 0;
+}
+.three3 h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.three-3 {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+}
+.img2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: rgb(252, 238, 192);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img2 img {
+    margin: 0;
+}
+.three-3 h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.four {
+    width: 85%;
+    max-width: 1200px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    gap: 10px;
+}
+.four .btn1, .btn2, .btn3 {
+    width: 80px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    background-color: white;
+    border-radius: 5px;
+    color: rgb(152, 152, 152);
+    margin-left: 0;
+    cursor: pointer;
+}
+.four .btn1:hover, .four .btn2:hover, .four .btn3:hover {
+    background-color: gainsboro;
+}
+
+.main1 {
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+    margin-top: 40px;
+    padding: 30px 0;
+}
+.main1 h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto 20px auto;
+    padding: 0;
+}
+.main-1 {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.main-1 .i1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    position: absolute;
+    left: -20px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-1 .i2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    position: absolute;
+    right: -20px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-1, .img-2, .img-3, .img-4, .img-5, .img-6 {
+    text-align: center;
+}
+.img-1 img, .img-2 img, .img-3 img, .img-4 img, .img-5 img, .img-6 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
+.img-1 h2, .img-2 h2, .img-3 h2, .img-4 h2, .img-5 h2, .img-6 h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: gray;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
 
 
+.main2 {
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px 0;
+}
+.main2 h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto 20px auto;
+}
+
+.main-2 {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+
+.main-2 .i3, .main-2 .i4 {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 55px;                    /* 140px image na center ma barabar set karva mate */
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
 
 
+.main-2 .i3 {
+    left: -18px;                  
+}
 
 
+.main-2 .i4 {
+    right: -18px;
+}
 
 
+.main-2 .i3:hover, .main-2 .i4:hover {
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.22);
+}
+
+.main-2 .i3 i, .main-2 .i4 i {
+    font-size: 13px;
+    color: #4f4f4f;
+    margin: 0;                    
+}
+.main-2 .i3 {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    position: absolute;
+    left: -20px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-2 .i4 {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    position: absolute;
+    right: -20px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-7, .img-8, .img-9, .img-10, .img-11, .img-12 {
+    text-align: center;
+}
+
+.img-7 img, .img-8 img, .img-9 img, .img-10 img, .img-11 img, .img-12 img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;               
+    background-color: #ffffff;     
+    border: 1px solid #e8e8e8;   
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.06);
+    display: block;
+    margin: 0 auto;
+}
+.img-7 h3, .img-8 h3, .img-9 h3, .img-10 h3, .img-11 h3, .img-12 h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    margin: 10px 0 0 0;
+}
+.img-7 h4, .img-8 h4, .img-9 h4, .img-10 h4, .img-11 h4, .img-12 h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    margin: 5px 0 0 0;
+    color: gray;
+}
+
+.main3 {
+    width: 100%;
+    margin-top: 40px;
+}
+.main3 h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto 10px auto;
+}
+
+.main-3, .main-4, .main-5, .main-6, .main-7, .main-8, .main-9, .main-10,
+.main-11, .main-12, .main-13, .main-14, .main-15, .main-16, .main-17,
+.main-18, .main-19, .main-20, .main-21, .main-22, .main-23, .main-24,
+.main-25, .main-26, .main-27, .main-28, .main-29, .main-30, .main-31,
+.main-32, .main-33, .main-34, .main-35, .main-36, .main-37, .main-38,
+.main-39, .main-40, .main-41 {
+    width: 85%;
+    max-width: 1200px;
+    margin: 25px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thrteen, .fourteen,
+.fifteen, .sixteen, .seventeen, .eighteen, .ninteen, .twenty,
+.twenty-21, .twenty-22, .twenty-23, .twenty-24, .twenty-25, .twenty-26, .twenty-27,
+.twenty-28, .twenty-29, .twenty-30, .twenty-31, .twenty-32, .twenty-33, .twenty-34,
+.twenty-35, .twenty-36, .twenty-37, .twenty-38, .twenty-39, .twenty-40, .twenty-41,
+.twenty-42, .twenty-43, .twenty-44, .twenty-45, .twenty-46, .twenty-47, .twenty-48,
+.twenty-49, .twenty-50, .twenty-51, .twenty-52, .twenty-53, .twenty-54, .twenty-55,
+.twenty-56, .twenty-57, .twenty-58, .twenty-59, .twenty-60, .twenty-61, .twenty-62,
+.twenty-63, .twenty-64, .twenty-65, .twenty-66, .twenty-67, .twenty-68, .twenty-69,
+.twenty-70, .twenty-71, .twenty-72, .twenty-73, .twenty-74, .twenty-75, .twenty-76,
+.twenty-77, .twenty-78, .twenty-79, .twenty-80, .twenty-81, .twenty-82, .twenty-83,
+.twenty-84, .twenty-85, .twenty-86, .twenty-87, .twenty-88, .twenty-89, .twenty-90,
+.twenty-91, .twenty-93, .twenty-94, .twenty-95, .twenty-96, .twenty-97, .twenty-98,
+.twenty-99, .twenty-100, .twenty-101, .twenty-102, .twenty-103, .twenty-104,
+.twenty-105, .twenty-106, .twenty-107, .twenty-108, .twenty-109, .twenty-110,
+.twenty-111, .twenty-112, .twenty-113, .twenty-114, .twenty-115, .twenty-116,
+.twenty-117, .twenty-118, .twenty-119, .twenty-120, .twenty-121, .twenty-122 {
+    width: 31%;
+    height: auto;
+    border-radius: 20px;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid transparent;
+    transition: 0.2s;
+    background: #fff;
+}
+
+.five:hover, .six:hover, .seven:hover, .eight:hover, .nine:hover, .ten:hover,
+.eleven:hover, .twelve:hover, .thrteen:hover, .fourteen:hover, .fifteen:hover,
+.sixteen:hover, .seventeen:hover, .eighteen:hover, .ninteen:hover, .twenty:hover,
+.twenty-21:hover, .twenty-22:hover, .twenty-23:hover, .twenty-24:hover, .twenty-25:hover,
+.twenty-26:hover, .twenty-27:hover, .twenty-28:hover, .twenty-29:hover, .twenty-30:hover,
+.twenty-31:hover, .twenty-32:hover, .twenty-33:hover, .twenty-34:hover, .twenty-35:hover,
+.twenty-36:hover, .twenty-37:hover, .twenty-38:hover, .twenty-39:hover, .twenty-40:hover,
+.twenty-41:hover, .twenty-42:hover, .twenty-43:hover, .twenty-44:hover, .twenty-45:hover,
+.twenty-46:hover, .twenty-47:hover, .twenty-48:hover, .twenty-49:hover, .twenty-50:hover,
+.twenty-51:hover, .twenty-52:hover, .twenty-53:hover, .twenty-54:hover, .twenty-55:hover,
+.twenty-56:hover, .twenty-57:hover, .twenty-58:hover, .twenty-59:hover, .twenty-60:hover,
+.twenty-61:hover, .twenty-62:hover, .twenty-63:hover, .twenty-64:hover, .twenty-65:hover,
+.twenty-66:hover, .twenty-67:hover, .twenty-68:hover, .twenty-69:hover, .twenty-70:hover,
+.twenty-71:hover, .twenty-72:hover, .twenty-73:hover, .twenty-74:hover, .twenty-75:hover,
+.twenty-76:hover, .twenty-77:hover, .twenty-78:hover, .twenty-79:hover, .twenty-80:hover,
+.twenty-81:hover, .twenty-82:hover, .twenty-83:hover, .twenty-84:hover, .twenty-85:hover,
+.twenty-86:hover, .twenty-87:hover, .twenty-88:hover, .twenty-89:hover, .twenty-90:hover,
+.twenty-91:hover, .twenty-93:hover, .twenty-94:hover, .twenty-95:hover, .twenty-96:hover,
+.twenty-97:hover, .twenty-98:hover, .twenty-99:hover, .twenty-100:hover, .twenty-101:hover,
+.twenty-102:hover, .twenty-103:hover, .twenty-104:hover, .twenty-105:hover, .twenty-106:hover,
+.twenty-107:hover, .twenty-108:hover, .twenty-109:hover, .twenty-110:hover, .twenty-111:hover,
+.twenty-112:hover, .twenty-113:hover, .twenty-114:hover, .twenty-115:hover, .twenty-116:hover,
+.twenty-117:hover, .twenty-118:hover, .twenty-119:hover, .twenty-120:hover, .twenty-121:hover,
+.twenty-122:hover {
+    border: 1px solid gainsboro;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.five img, .six img, .seven img, .eight img, .nine img, .ten img,
+.eleven img, .twelve img, .thrteen img, .fourteen img, .fifteen img,
+.sixteen img, .seventeen img, .eighteen img, .ninteen img, .twenty img,
+.twenty-21 img, .twenty-22 img, .twenty-23 img, .twenty-24 img, .twenty-25 img,
+.twenty-26 img, .twenty-27 img, .twenty-28 img, .twenty-29 img, .twenty-30 img,
+.twenty-31 img, .twenty-32 img, .twenty-33 img, .twenty-34 img, .twenty-35 img,
+.twenty-36 img, .twenty-37 img, .twenty-38 img, .twenty-39 img, .twenty-40 img,
+.twenty-41 img, .twenty-42 img, .twenty-43 img, .twenty-44 img, .twenty-45 img,
+.twenty-46 img, .twenty-47 img, .twenty-48 img, .twenty-49 img, .twenty-50 img,
+.twenty-51 img, .twenty-52 img, .twenty-53 img, .twenty-54 img, .twenty-55 img,
+.twenty-56 img, .twenty-57 img, .twenty-58 img, .twenty-59 img, .twenty-60 img,
+.twenty-61 img, .twenty-62 img, .twenty-63 img, .twenty-64 img, .twenty-65 img,
+.twenty-66 img, .twenty-67 img, .twenty-68 img, .twenty-69 img, .twenty-70 img,
+.twenty-71 img, .twenty-72 img, .twenty-73 img, .twenty-74 img, .twenty-75 img,
+.twenty-76 img, .twenty-77 img, .twenty-78 img, .twenty-79 img, .twenty-80 img,
+.twenty-81 img, .twenty-82 img, .twenty-83 img, .twenty-84 img, .twenty-85 img,
+.twenty-86 img, .twenty-87 img, .twenty-88 img, .twenty-89 img, .twenty-90 img,
+.twenty-91 img, .twenty-93 img, .twenty-94 img, .twenty-95 img, .twenty-96 img,
+.twenty-97 img, .twenty-98 img, .twenty-99 img, .twenty-100 img, .twenty-101 img,
+.twenty-102 img, .twenty-103 img, .twenty-104 img, .twenty-105 img, .twenty-106 img,
+.twenty-107 img, .twenty-108 img, .twenty-109 img, .twenty-110 img, .twenty-111 img,
+.twenty-112 img, .twenty-113 img, .twenty-114 img, .twenty-115 img, .twenty-116 img,
+.twenty-117 img, .twenty-118 img, .twenty-119 img, .twenty-120 img, .twenty-121 img,
+.twenty-122 img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.one-1, .four-4, .six-6, .eight-8, .ten-10, .twelve-12, .forteen-14, .sixteen-16,
+.eighteen-18, .twenty-20, .twentytwo-22, .twentyfour-24, .twentysix-26, .twentyeight-28,
+.thirty-30, .thirtytwo-32, .thirtyfour-34, .thirtysix-36, .thirtyeight-38, .fourty-40,
+.fourtytwo-42, .fourtyfour-44, .fourtysix-46, .fourtyeight-48, .fifty-50, .fiftytwo-52,
+.fiftyfour-54, .fiftysix-56, .fiftyeight-58, .sixty-60, .sixtytwo-62, .sixtyfour-64,
+.sixtysix-66, .sixtyeight-68, .seventy-70, .seventytwo-72, .seventyfour-74, .seventysix-76,
+.seventyeight-78, .eighty-80, .eightytwo-82, .eightyfour-84, .eightysix-86, .eightyeight-88,
+.ninty-90, .nintytwo-92, .nintyfour-94, .nintysix-96, .nintyeight-98, .onehundred,
+.threehundred, .fivehundred, .sevenhundred, .ninehundred, .elevenhundred, .thrteenhundred,
+.fifteenhundred, .seventeenhundred, .ninteenhundred, .twentyonehundred, .twentythreehundred,
+.twentyfivehundred, .twentysevenhundred, .twentyninehundred, .twentyelevenhundred,
+.twentythrteenhundred, .twentyfifteenhundred, .twentyseventeenhundred, .twentyninteenhundred,
+.img-21, .img-23, .img-25, .img-27, .img-29, .img-31, .img-33, .img-35, .img-37, .img-39,
+.img-41, .img-43, .img-45, .img-47, .img-49, .img-51, .img-53, .img-55, .img-57, .img-59,
+.img-61, .img-63, .img-65, .img-67, .img-69, .img-71, .img-73, .img-75, .img-77, .img-79,
+.img-81, .img-83, .img-85, .img-87, .img-89, .img-91, .img-93, .img-95, .img-97, .img-99,
+.img-101, .img-103, .img-105, .img-107, .img-109, .img-111, .img-113, .img-115 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.one-1 h2, .four-4 h2, .six-6 h2, .eight-8 h2, .ten-10 h2, .twelve-12 h2, .forteen-14 h2,
+.sixteen-16 h2, .eighteen-18 h2, .twenty-20 h2, .twentytwo-22 h2, .twentyfour-24 h2,
+.twentysix-26 h2, .twentyeight-28 h2, .thirty-30 h2, .thirtytwo-32 h2, .thirtyfour-34 h2,
+.thirtysix-36 h2, .thirtyeight-38 h2, .fourty-40 h2, .fourtytwo-42 h2, .fourtyfour-44 h2,
+.fourtysix-46 h2, .fourtyeight-48 h2, .fifty-50 h2, .fiftytwo-52 h2, .fiftyfour-54 h2,
+.fiftysix-56 h2, .fiftyeight-58 h2, .sixty-60 h2, .sixtytwo-62 h2, .sixtyfour-64 h2,
+.sixtysix-66 h2, .sixtyeight-68 h2, .seventy-70 h2, .seventytwo-72 h2, .seventyfour-74 h2,
+.seventysix-76 h2, .seventyeight-78 h2, .eighty-80 h2, .eightytwo-82 h2, .eightyfour-84 h2,
+.eightysix-86 h2, .eightyeight-88 h2, .ninty-90 h2, .nintytwo-92 h2, .nintyfour-94 h2,
+.nintysix-96 h2, .nintyeight-98 h2, .onehundred h2, .threehundred h2, .fivehundred h2,
+.sevenhundred h2, .ninehundred h2, .elevenhundred h2, .thrteenhundred h2, .fifteenhundred h2,
+.seventeenhundred h2, .ninteenhundred h2, .twentyonehundred h2, .twentythreehundred h2,
+.twentyfivehundred h2, .twentysevenhundred h2, .twentyninehundred h2, .twentyelevenhundred h2,
+.twentythrteenhundred h2, .twentyfifteenhundred h2, .twentyseventeenhundred h2,
+.twentyninteenhundred h2,
+.img-21 h2, .img-23 h2, .img-25 h2, .img-27 h2, .img-29 h2, .img-31 h2, .img-33 h2,
+.img-35 h2, .img-37 h2, .img-39 h2, .img-41 h2, .img-43 h2, .img-45 h2, .img-47 h2,
+.img-49 h2, .img-51 h2, .img-53 h2, .img-55 h2, .img-57 h2, .img-59 h2, .img-61 h2,
+.img-63 h2, .img-65 h2, .img-67 h2, .img-69 h2, .img-71 h2, .img-73 h2, .img-75 h2,
+.img-77 h2, .img-79 h2, .img-81 h2, .img-83 h2, .img-85 h2, .img-87 h2, .img-89 h2,
+.img-91 h2, .img-93 h2, .img-95 h2, .img-97 h2, .img-99 h2, .img-101 h2, .img-103 h2,
+.img-105 h2, .img-107 h2, .img-109 h2, .img-111 h2, .img-113 h2, .img-115 h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+}
+
+
+.one-1 h3, .four-4 h3, .six-6 h3, .eight-8 h3, .ten-10 h3, .twelve-12 h3, .forteen-14 h3,
+.sixteen-16 h3, .eighteen-18 h3, .twenty-20 h3, .twentytwo-22 h3, .twentyfour-24 h3,
+.twentysix-26 h3, .twentyeight-28 h3, .thirty-30 h3, .thirtytwo-32 h3, .thirtyfour-34 h3,
+.thirtysix-36 h3, .thirtyeight-38 h3, .fourty-40 h3, .fourtytwo-42 h3, .fourtyfour-44 h3,
+.fourtysix-46 h3, .fourtyeight-48 h3, .fifty-50 h3, .fiftytwo-52 h3, .fiftyfour-54 h3,
+.fiftysix-56 h3, .fiftyeight-58 h3, .sixty-60 h3, .sixtytwo-62 h3, .sixtyfour-64 h3,
+.sixtysix-66 h3, .sixtyeight-68 h3, .seventy-70 h3, .seventytwo-72 h3, .seventyfour-74 h3,
+.seventysix-76 h3, .seventyeight-78 h3, .eighty-80 h3, .eightytwo-82 h3, .eightyfour-84 h3,
+.eightysix-86 h3, .eightyeight-88 h3, .ninty-90 h3, .nintytwo-92 h3, .nintyfour-94 h3,
+.nintysix-96 h3, .nintyeight-98 h3, .onehundred h3, .threehundred h3, .fivehundred h3,
+.sevenhundred h3, .ninehundred h3, .elevenhundred h3, .thrteenhundred h3, .fifteenhundred h3,
+.seventeenhundred h3, .ninteenhundred h3, .twentyonehundred h3, .twentythreehundred h3,
+.twentyfivehundred h3, .twentysevenhundred h3, .twentyninehundred h3, .twentyelevenhundred h3,
+.twentythrteenhundred h3, .twentyfifteenhundred h3, .twentyseventeenhundred h3,
+.twentyninteenhundred h3,
+.img-21 h3, .img-23 h3, .img-25 h3, .img-27 h3, .img-29 h3, .img-31 h3, .img-33 h3,
+.img-35 h3, .img-37 h3, .img-39 h3, .img-41 h3, .img-43 h3, .img-45 h3, .img-47 h3,
+.img-49 h3, .img-51 h3, .img-53 h3, .img-55 h3, .img-57 h3, .img-59 h3, .img-61 h3,
+.img-63 h3, .img-65 h3, .img-67 h3, .img-69 h3, .img-71 h3, .img-73 h3, .img-75 h3,
+.img-77 h3, .img-79 h3, .img-81 h3, .img-83 h3, .img-85 h3, .img-87 h3, .img-89 h3,
+.img-91 h3, .img-93 h3, .img-95 h3, .img-97 h3, .img-99 h3, .img-101 h3, .img-103 h3,
+.img-105 h3, .img-107 h3, .img-109 h3, .img-111 h3, .img-113 h3, .img-115 h3 {
+    width: auto;
+    min-width: 38px;
+    height: 20px;
+    border-radius: 4px;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    padding: 0 4px;
+    margin: 0;
+}
+
+
+.two-2, .five-5, .seven-7, .nine-9, .eleven-11, .thrteen-13, .fifteen-15, .seventeen-17,
+.ninteen-19, .twentyone-21, .twentythree-23, .twentyfive-25, .twentyseven-27, .twentynine-29,
+.thirtyone-31, .thirtythree-33, .thirtyfive-35, .thirtyseven-37, .thirtynine-39, .fourtyone-41,
+.fourtythree-43, .fourtyfive-45, .fourtyseven-47, .fourtynine-49, .fiftyone-51, .fiftythree-53,
+.fiftyfive-55, .fiftyseven-57, .fiftynine-59, .sixtyone-61, .sixtythree-63, .sixtyfive-65,
+.sixtyseven-67, .sixtynine-69, .seventyone-71, .seventythree-73, .seventyfive-75, .seventyseven-77,
+.seventynine-79, .eightyone-81, .eightythree-83, .eightyfive-85, .eightyseven-87, .eightynine-89,
+.nintyone-91, .nintythree-93, .nintyfive-95, .nintyseven-97, .nintynine-99, .twohundred,
+.fourhundred, .sixhundred, .eighthundred, .tenhundred, .twelvehundred, .fourteenhundred,
+.sixteenhundred, .eighteenhundred, .twentyhundred, .twentytwohundred, .twentyfourhundred,
+.twentysixhundred, .twentyeighthundred, .twentytenhundred, .twentytwelvehundred,
+.twentyfourteenhundred, .twentysixteenhundred, .twentyeighteenhundred, .twentytwentyhundred,
+.img-22, .img-24, .img-26, .img-28, .img-30, .img-32, .img-34, .img-36, .img-38, .img-40,
+.img-42, .img-44, .img-46, .img-48, .img-50, .img-52, .img-54, .img-56, .img-58, .img-60,
+.img-62, .img-64, .img-66, .img-68, .img-70, .img-72, .img-74, .img-76, .img-78, .img-80,
+.img-82, .img-84, .img-86, .img-88, .img-90, .img-92, .img-94, .img-96, .img-98, .img-100,
+.img-102, .img-104, .img-106, .img-108, .img-110, .img-112, .img-114, .img-116 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.two-2 h2, .five-5 h2, .seven-7 h2, .nine-9 h2, .eleven-11 h2, .thrteen-13 h2, .fifteen-15 h2,
+.seventeen-17 h2, .ninteen-19 h2, .twentyone-21 h2, .twentythree-23 h2, .twentyfive-25 h2,
+.twentyseven-27 h2, .twentynine-29 h2, .thirtyone-31 h2, .thirtythree-33 h2, .thirtyfive-35 h2,
+.thirtyseven-37 h2, .thirtynine-39 h2, .fourtyone-41 h2, .fourtythree-43 h2, .fourtyfive-45 h2,
+.fourtyseven-47 h2, .fourtynine-49 h2, .fiftyone-51 h2, .fiftythree-53 h2, .fiftyfive-55 h2,
+.fiftyseven-57 h2, .fiftynine-59 h2, .sixtyone-61 h2, .sixtythree-63 h2, .sixtyfive-65 h2,
+.sixtyseven-67 h2, .sixtynine-69 h2, .seventyone-71 h2, .seventythree-73 h2, .seventyfive-75 h2,
+.seventyseven-77 h2, .seventynine-79 h2, .eightyone-81 h2, .eightythree-83 h2, .eightyfive-85 h2,
+.eightyseven-87 h2, .eightynine-89 h2, .nintyone-91 h2, .nintythree-93 h2, .nintyfive-95 h2,
+.nintyseven-97 h2, .nintynine-99 h2, .twohundred h2, .fourhundred h2, .sixhundred h2,
+.eighthundred h2, .tenhundred h2, .twelvehundred h2, .fourteenhundred h2, .sixteenhundred h2,
+.eighteenhundred h2, .twentyhundred h2, .twentytwohundred h2, .twentyfourhundred h2,
+.twentysixhundred h2, .twentyeighthundred h2, .twentytenhundred h2, .twentytwelvehundred h2,
+.twentyfourteenhundred h2, .twentysixteenhundred h2, .twentyeighteenhundred h2,
+.twentytwentyhundred h2,
+.img-22 h2, .img-24 h2, .img-26 h2, .img-28 h2, .img-30 h2, .img-32 h2, .img-34 h2,
+.img-36 h2, .img-38 h2, .img-40 h2, .img-42 h2, .img-44 h2, .img-46 h2, .img-48 h2,
+.img-50 h2, .img-52 h2, .img-54 h2, .img-56 h2, .img-58 h2, .img-60 h2, .img-62 h2,
+.img-64 h2, .img-66 h2, .img-68 h2, .img-70 h2, .img-72 h2, .img-74 h2, .img-76 h2,
+.img-78 h2, .img-80 h2, .img-82 h2, .img-84 h2, .img-86 h2, .img-88 h2, .img-90 h2,
+.img-92 h2, .img-94 h2, .img-96 h2, .img-98 h2, .img-100 h2, .img-102 h2, .img-104 h2,
+.img-106 h2, .img-108 h2, .img-110 h2, .img-112 h2, .img-114 h2, .img-116 h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    color: gray;
+    margin: 0;
+}
+
+.two-2 h3, .five-5 h3, .seven-7 h3, .nine-9 h3, .eleven-11 h3, .thrteen-13 h3, .fifteen-15 h3,
+.seventeen-17 h3, .ninteen-19 h3, .twentyone-21 h3, .twentythree-23 h3, .twentyfive-25 h3,
+.twentyseven-27 h3, .twentynine-29 h3, .thirtyone-31 h3, .thirtythree-33 h3, .thirtyfive-35 h3,
+.thirtyseven-37 h3, .thirtynine-39 h3, .fourtyone-41 h3, .fourtythree-43 h3, .fourtyfive-45 h3,
+.fourtyseven-47 h3, .fourtynine-49 h3, .fiftyone-51 h3, .fiftythree-53 h3, .fiftyfive-55 h3,
+.fiftyseven-57 h3, .fiftynine-59 h3, .sixtyone-61 h3, .sixtythree-63 h3, .sixtyfive-65 h3,
+.sixtyseven-67 h3, .sixtynine-69 h3, .seventyone-71 h3, .seventythree-73 h3, .seventyfive-75 h3,
+.seventyseven-77 h3, .seventynine-79 h3, .eightyone-81 h3, .eightythree-83 h3, .eightyfive-85 h3,
+.eightyseven-87 h3, .eightynine-89 h3, .nintyone-91 h3, .nintythree-93 h3, .nintyfive-95 h3,
+.nintyseven-97 h3, .nintynine-99 h3, .twohundred h3, .fourhundred h3, .sixhundred h3,
+.eighthundred h3, .tenhundred h3, .twelvehundred h3, .fourteenhundred h3, .sixteenhundred h3,
+.eighteenhundred h3, .twentyhundred h3, .twentytwohundred h3, .twentyfourhundred h3,
+.twentysixhundred h3, .twentyeighthundred h3, .twentytenhundred h3, .twentytwelvehundred h3,
+.twentyfourteenhundred h3, .twentysixteenhundred h3, .twentyeighteenhundred h3,
+.twentytwentyhundred h3,
+.img-22 h3, .img-24 h3, .img-26 h3, .img-28 h3, .img-30 h3, .img-32 h3, .img-34 h3,
+.img-36 h3, .img-38 h3, .img-40 h3, .img-42 h3, .img-44 h3, .img-46 h3, .img-48 h3,
+.img-50 h3, .img-52 h3, .img-54 h3, .img-56 h3, .img-58 h3, .img-60 h3, .img-62 h3,
+.img-64 h3, .img-66 h3, .img-68 h3, .img-70 h3, .img-72 h3, .img-74 h3, .img-76 h3,
+.img-78 h3, .img-80 h3, .img-82 h3, .img-84 h3, .img-86 h3, .img-88 h3, .img-90 h3,
+.img-92 h3, .img-94 h3, .img-96 h3, .img-98 h3, .img-100 h3, .img-102 h3, .img-104 h3,
+.img-106 h3, .img-108 h3, .img-110 h3, .img-112 h3, .img-114 h3, .img-116 h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    color: gray;
+    margin: 0;
+    background: transparent;
+}
+
+
+.order {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    margin: 10px 0 0 0 !important;
+    text-align: right;
+    display: block;
+    border-top: 1px solid #f4f4f4;
+    padding-top: 8px;
+}
 
 
 
